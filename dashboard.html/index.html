@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boilerplate Dashboard - JS, HTML, CSS and Bootstrap.</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body id="body-pd">
+    <header class="header" id="header">
+      <div class="header_toggle">
+        <i class="bx bx-menu" id="header-toggle"></i>
+      </div>
+      <div class="header_img">
+        <img src="https://i.imgur.com/hczKIze.jpg" alt="" />
+      </div>
+    </header>
+    <div class="l-navbar" id="nav-bar">
+      <nav class="nav">
+        <div>
+          <a href="#" class="nav_logo">
+            <i class="bx bx-layer nav_logo-icon"></i>
+            <span class="nav_logo-name">BBBootstrap</span>
+          </a>
+          <div class="nav_list">
+            <a href="#" class="nav_link active">
+              <i class="bx bx-grid-alt nav_icon"></i>
+              <span class="nav_name">Dashboard</span>
+            </a>
+            <a href="#" class="nav_link">
+              <i class="bx bx-user nav_icon"></i>
+              <span class="nav_name">Users</span>
+            </a>
+            <a href="#" class="nav_link">
+              <i class="bx bx-message-square-detail nav_icon"></i>
+              <span class="nav_name">Messages</span>
+            </a>
+            <a href="#" class="nav_link">
+              <i class="bx bx-bookmark nav_icon"></i>
+              <span class="nav_name">Bookmark</span>
+            </a>
+            <a href="#" class="nav_link">
+              <i class="bx bx-folder nav_icon"></i>
+              <span class="nav_name">Files</span>
+            </a>
+            <a href="#" class="nav_link">
+              <i class="bx bx-bar-chart-alt-2 nav_icon"></i>
+              <span class="nav_name">Stats</span>
+            </a>
+          </div>
+        </div>
+        <a href="#" class="nav_link">
+          <i class="bx bx-log-out nav_icon"></i>
+          <span class="nav_name">Logout</span>
+        </a>
+      </nav>
+    </div>
+    <!--Container Main start-->
+    <main class="mt-5 py-4">
+      <div class="page-title py-2">
+        <h4>Dashboard</h4>
+      </div>
+      <!-- Cards -->
+      <div class="row">
+        <div class="mb-2 col-12 col-lg-4">
+          <div class="card text-center border-0 shadow rounded-0">
+            <div class="icon">
+              <i class="bx bxs-universal-access"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title fw-bold d-flex justify-content-between">
+                <span>Students</span>
+                <a href="#" class="link-dark"><i class="bx bx-show-alt"></i></a>
+              </h4>
+              <p class="card-text">1.234 Registers</p>
+            </div>
+          </div>
+        </div>
+        <div class="mb-2 col-12 col-lg-4">
+          <div class="card text-center border-0 shadow rounded-0">
+            <div class="icon">
+              <i class="bx bxs-universal-access"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Teachers</h4>
+              <p class="card-text">1.234 Registers</p>
+            </div>
+          </div>
+        </div>
+        <div class="mb-2 col-12 col-lg-4">
+          <div class="card text-center border-0 shadow rounded-0">
+            <div class="icon">
+              <i class="bx bxs-universal-access"></i>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title fw-bold">Schools</h4>
+              <p class="card-text">1.234 Registers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cards -->
+      <!-- Table -->
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div class="border-0 shadow rounded-0 mt-3">
+            <div class="container">
+              <h4 class="py-2 d-flex justify-content-between">
+                <span>Students</span>
+                <a href="#" class="link-success">
+                  <i class='bx bx-plus'></i>
+                </a>
+              </h4>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col" class="text-center">Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Anderson Toledo Martins Moreira</td>
+                    <td class="text-center">
+                      <a href=""><i class="bx bx-edit-alt text-warning"></i></a>
+                      <a href=""><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Amanda Toledo Martins Moreira</td>
+                    <td class="text-center">
+                      <a href=""><i class="bx bx-edit-alt text-warning"></i></a>
+                      <a href=""><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Vanuza Toledo Martins Moreira</td>
+                    <td class="text-center">
+                      <a href=""><i class="bx bx-edit-alt text-warning"></i></a>
+                      <a href=""><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="border-0 shadow rounded-0 mt-3">
+            <div class="container">
+              <h4 class="py-2">Teachers</h4>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col" class="text-center">Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Anderson Toledo Martins Moreira</td>
+                    <td class="text-center">
+                      <a href=""><i class="bx bx-edit-alt text-warning"></i></a>
+                      <a href=""><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Amanda Toledo Martins Moreira</td>
+                    <td class="text-center">
+                      <a href=""><i class="bx bx-edit-alt text-warning"></i></a>
+                      <a href=""><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Vanuza Toledo Martins Moreira</td>
+                    <td class="text-center">
+                      <a href=""><i class="bx bx-edit-alt text-warning"></i></a>
+                      <a href=""><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="border-0 shadow rounded-0 mt-3">
+            <div class="container">
+              <h4 class="py-2">Schools</h4>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col" class="text-center">Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Anderson Toledo Martins Moreira</td>
+                    <td class="text-center">
+                      <a href=""><i class="bx bx-edit-alt text-warning"></i></a>
+                      <a href=""><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Amanda Toledo Martins Moreira</td>
+                    <td class="text-center">
+                      <a href=""><i class="bx bx-edit-alt text-warning"></i></a>
+                      <a href=""><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Vanuza Toledo Martins Moreira</td>
+                    <td class="text-center">
+                      <a href=""><i class="bx bx-edit-alt text-warning"></i></a>
+                      <a href=""><i class="bx bx-trash text-danger"></i></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Table -->
+    </main>
+    <!--Container Main end-->
+    <script type="module" src="/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>
