@@ -1,0 +1,17 @@
+/*
+Theme Name: theme_name
+Theme URI: https://www.seusite.com
+Author: Anderson Moreira
+Author URI: https://www.atmm.dev
+Description: Description of your theme.
+Version: 1.0
+License: GPLv2 or later
+Text Domain: theme_name
+*/
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}

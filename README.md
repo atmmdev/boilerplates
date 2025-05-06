@@ -36,6 +36,7 @@ Choose a project depending on the backend language and database you are using:
 | Language      | Database   | Project Directory         |
 | ------------- | ---------- | ------------------------- |
 | PHP           | MySQL      | `php-mysql-nginx/`        |
+| WordPress     | MySQL      | `wordpress-mysql/`  |
 | Laravel (PHP) | MySQL      | `laravel-mysql-nginx/`    |
 | Node.js       | MySQL      | `node-mysql-nginx/`       |
 | Node.js       | MongoDB    | `node-mongodb-nginx/`     |
