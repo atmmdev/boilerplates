@@ -21,6 +21,7 @@ This repository provides ready-to-use Docker environments for various popular te
 ## Available Stacks
 
 - **PHP + MySQL + Nginx**
+- **WordPress + MySQL**
 - **Laravel + MySQL + Nginx**
 - **Node.js + MySQL + Nginx**
 - **Node.js + MongoDB + Nginx**
