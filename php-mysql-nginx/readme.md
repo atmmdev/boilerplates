@@ -20,50 +20,27 @@ php-mysql-prod/
 
 ## Requirements
 
-- Docker: [Install Docker](https://docs.docker.com/get-docker/)
-- Docker Compose
+- Docker Desktop: [Install Docker](https://docs.docker.com/get-docker/)
 
 ## Installing and run the project
 
 ```bash
+# Step 01 - Clone the repository and Access the repository.
 
-# Step 01
-# Clone the repository: git clone https://github.com/your-user/php-mysql-prod.git
-# Access the repository: cd php-mysql-prod
+# Step 02 - Duplicate the .env-example, and rename to '.env'.
 
-# Step 02
-# Create the `.env` file
-# DB_HOST=db
-# DB_PORT=3306
-# DB_DATABASE=app
-# DB_USERNAME=appuser
-# DB_PASSWORD=apppassword
-#
-# MYSQL_ROOT_PASSWORD=rootpassword
+# Step 03 - Add your PHP files: Put your PHP application inside this folder
+'src/public/'
 
-# Step **03**
-# Add your PHP files: Put your PHP application inside the `src/public/` directory.
-# Save it as `src/public/index.php`.
+# Step 04 - Start the project
+docker-compose up -d --build
 
-# Step 04
-# Build the Docker images: 'docker-compose build'
+# Step 05 - Access your application
+http://localhost or http://localhost:80
 
-# Step 05
-# Start the containers: 'docker-compose up -d'
+# Accessing MySQL - You can access the MySQL container using, and use the password from 'MYSQL_ROOT_PASSWORD' in '.env'.
+docker exec -it php-mysql-db mysql -u root -p
 
-# Step 06
-# Access your application: http://localhost
-# You should see the output of `index.php`.
-
-# Step 07
-# Check container status: 'docker-compose ps'
-
-# Step 08
-# Check container logs (optional): 'docker-compose logs -f'
-
-# Accessing MySQL
-# You can access the MySQL container using: 'docker exec -it php-mysql-db mysql -u root -p'
-# Use the password from `MYSQL_ROOT_PASSWORD` in `.env`.
-
-# Stopping and Cleaning up the Containers: 'docker-compose down --volumes'
+# Stopping and Cleaning up the containers, volumes, networks, images.
+docker-compose down --rmi all --volumes
 ```
