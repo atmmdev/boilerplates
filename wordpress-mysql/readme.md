@@ -37,10 +37,8 @@ wordpress-prod/
 docker-compose up -d --build
 
 # Step 04 - Access your application
-http://localhost or http://localhost:80
-
-# Accessing MySQL - You can access the MySQL container using, and use the password from 'MYSQL_ROOT_PASSWORD' in '.env'.
-docker exec -it php-mysql-db mysql -u root -p
+app: http://localhost or http://localhost:80
+phpmyadmin: http://localhost:8080
 
 # Stopping and Cleaning up the containers, volumes, networks, images.
 docker-compose down --rmi all --volumes
