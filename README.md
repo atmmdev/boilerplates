@@ -20,13 +20,22 @@ This repository provides ready-to-use Docker environments for various popular te
 
 ## Available Stacks
 
+PHP
+
+- **Laravel + MySQL + Nginx**
 - **PHP + MySQL + Nginx**
 - **WordPress + MySQL**
-- **Laravel + MySQL + Nginx**
-- **Node.js + MySQL + Nginx**
+
+Node
+
 - **Node.js + MongoDB + Nginx**
-- **.NET (C#) + SQL Server + Nginx**
+- **Node.js + MySQL + Nginx**
+
+Python
+
 - **Python + MySQL + Nginx**
+
+<br >
 
 Each stack is self-contained in its own directory with a `Dockerfile`, `docker-compose.yml`, and `README.md` to explain setup instructions.
 
@@ -34,15 +43,14 @@ Each stack is self-contained in its own directory with a `Dockerfile`, `docker-c
 
 Choose a project depending on the backend language and database you are using:
 
-| Language      | Database   | Project Directory         |
-| ------------- | ---------- | ------------------------- |
-| PHP           | MySQL      | `php-mysql-nginx/`        |
-| WordPress     | MySQL      | `wordpress-mysql/`  |
-| Laravel (PHP) | MySQL      | `laravel-mysql-nginx/`    |
-| Node.js       | MySQL      | `node-mysql-nginx/`       |
-| Node.js       | MongoDB    | `node-mongodb-nginx/`     |
-| C# (.NET)     | SQL Server | `dotnet-sqlserver-nginx/` |
-| Python        | MySQL      | `python-mysql-nginx/`     |
+| Language      | Database | Project Directory      |
+| ------------- | -------- | ---------------------- |
+| Laravel (PHP) | MySQL    | `laravel-mysql-nginx/` |
+| Node.js       | MongoDB  | `node-mongodb-nginx/`  |
+| Node.js       | MySQL    | `node-mysql-nginx/`    |
+| PHP           | MySQL    | `php-mysql-nginx/`     |
+| Python        | MySQL    | `python-mysql-nginx/`  |
+| WordPress     | MySQL    | `wordpress-mysql/`     |
 
 <br />
 
@@ -50,7 +58,7 @@ Choose a project depending on the backend language and database you are using:
 
 ```bash
 # Step 01
-# Download or clone the repository. In this repository has folder with specific projects boilerplates.
+# Download or clone the repository. In this repository has folders with specific projects boilerplates.
 
 # Step 02
 # Choose your Stack and open the project inside your favorite IDE (I use VSCode). And customize the environment variables (if needed).
