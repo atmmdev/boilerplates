@@ -29,7 +29,7 @@ Each stack is self-contained in its own directory with a `Dockerfile`, `docker-c
 | ⛔  | Laravel   | MySQL    | `laravel-mysql-nginx/` |
 | ⛔  | Node.js   | MongoDB  | `node-mongodb-nginx/`  |
 | ⛔  | Node.js   | MySQL    | `node-mysql-nginx/`    |
-| ⛔  | PHP       | MySQL    | `php-mysql-nginx/`     |
+| ✅  | PHP       | MySQL    | `php-mysql-nginx/`     |
 | ⛔  | Python    | MySQL    | `python-mysql-nginx/`  |
 | ✅  | WordPress | MySQL    | `wordpress-mysql/`     |
 
