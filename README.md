@@ -26,8 +26,8 @@ Each stack is self-contained in its own directory with a `Dockerfile`, `docker-c
 
 |     | Language                  | Database | Project Directory                   |
 | --- | ------------------------- | -------- | ----------------------------------- |
-| ✅  | Laravel                   | MySQL    | `laravel-mysql-nginx/`              |
 | ⛔  | Node.js                   | MySQL    | `node-mysql-nginx/`                 |
+| ✅  | Laravel                   | MySQL    | `laravel-mysql-nginx/`              |
 | ✅  | PHP                       | MySQL    | `php-mysql-nginx/`                  |
 | ✅  | WordPress                 | MySQL    | `wordpress-mysql/`                  |
 
