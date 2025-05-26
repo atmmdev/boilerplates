@@ -24,13 +24,12 @@ This repository provides ready-to-use Docker environments for various popular te
 
 Each stack is self-contained in its own directory with a `Dockerfile`, `docker-compose.yml`, and `README.md` to explain setup instructions. Choose a project depending on the backend language and database you want to using:
 
-|     | Language  | Database | Project Directory      |
-| --- | --------- | -------- | ---------------------- |
-| ✅  | Laravel   | MySQL    | `laravel-mysql-nginx/` |
-| ⛔  | Node.js   | MongoDB  | `node-mongodb-nginx/`  |
-| ⛔  | Node.js   | MySQL    | `node-mysql-nginx/`    |
-| ✅  | PHP       | MySQL    | `php-mysql-nginx/`     |
-| ✅  | WordPress | MySQL    | `wordpress-mysql/`     |
+|     | Language                  | Database | Project Directory                   |
+| --- | ------------------------- | -------- | ----------------------------------- |
+| ✅  | Laravel                   | MySQL    | `laravel-mysql-nginx/`              |
+| ⛔  | Node.js                   | MySQL    | `node-mysql-nginx/`                 |
+| ✅  | PHP                       | MySQL    | `php-mysql-nginx/`                  |
+| ✅  | WordPress                 | MySQL    | `wordpress-mysql/`                  |
 
 <br />
 
