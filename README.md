@@ -24,12 +24,13 @@ This repository provides ready-to-use Docker environments for various popular te
 
 Each stack is self-contained in its own directory with a `Dockerfile`, `docker-compose.yml`, and `README.md` to explain setup instructions. Choose a project depending on the backend language and database you want to using:
 
-|     | Language                  | Database | Project Directory                   |
-| --- | ------------------------- | -------- | ----------------------------------- |
-| ⛔  | Node.js                   | MySQL    | `node-mysql-nginx/`                 |
-| ✅  | Laravel                   | MySQL    | `laravel-mysql-nginx/`              |
-| ✅  | PHP                       | MySQL    | `php-mysql-nginx/`                  |
-| ✅  | WordPress                 | MySQL    | `wordpress-mysql/`                  |
+|     | Language                    | Database       | Project Directory                        |
+| --- | --------------------------- | -------------- | ---------------------------------------- |
+| ✅  | Node + Express + TypeScript | MySQL / MongDB | `node-express-typescript-mysql-mongodb/` |
+| ✅  | Laravel                     | MySQL          | `laravel-mysql-nginx/`                   |
+| ✅  | PHP                         | MySQL          | `php-mysql-nginx/`                       |
+| ✅  | WordPress                   | MySQL          | `wordpress-mysql/`                       |
+| ⛔  | ---                         | ---            | `---`                                    |
 
 <br />
 
@@ -40,11 +41,5 @@ Each stack is self-contained in its own directory with a `Dockerfile`, `docker-c
 
 # Step 02 - Choose your Stack and open the project inside your favorite IDE (I use VSCode). And customize the environment variables (if needed).
 
-# Step 03 - Start the container:
-docker-compose up --build
-
-# Step 04 - Access the app via your browser on:
-http://localhost - (or custom ports if configured).
-
-# Step 05 - Database services are configured with default environment variables or .env files (check each folder for details).
+# Step 03 - You will find a readme.md file, with a small tutorial to run your project with Docker.
 ```
