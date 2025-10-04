@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="./docs/logo/favicon.png" />
-  <h1>Anderson Toledo Martins Moreira</h1>
+
+![Logo](./docs/logo/favicon.png)
+
+# Anderson Toledo Martins Moreira
 
 [![Resume-US](https://img.shields.io/badge/RESUME_US-3776AB?style=for-the-badge&logo=libreofficewriter&logoColor=white)](https://docs.google.com/document/d/1I8T4Mkb61NsTKN14ZbT1mnQKAc9LqiiPtgrYf9ayH1c/edit?usp=sharing)
 [![Resume-PTbr](https://img.shields.io/badge/RESUME_PT_br-007C3C?style=for-the-badge&logo=libreofficewriter&logoColor=white)](https://docs.google.com/document/d/1vnFlRP3myxexgHk5Y6XaCKQGETPQwCygPZqGSblwCXg/edit?usp=sharing)
