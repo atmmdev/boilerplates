@@ -1,71 +1,60 @@
 <div align="center">
   <img src="readme/logo/favicon.png" />
   <h1>Anderson Toledo Martins Moreira</h1>
-  <a href="http://www.atmm.dev" target="_blank">Portfolio Online</a>
 
-> Frontend Developer & WordPress Developer from Brazil with over 10 years of experience, that love learn and improve your skills in programming languages such as CSS (Sass, Bootstrap, Tailwind CSS) | JavaScript | React (Nextjs) | Typescript | Node (Nestjs), and PHP (Laravel | WordPress).
+[![Resume-US](https://img.shields.io/badge/RESUME_US-3776AB?style=for-the-badge&logo=libreofficewriter&logoColor=white)](https://docs.google.com/document/d/1I8T4Mkb61NsTKN14ZbT1mnQKAc9LqiiPtgrYf9ayH1c/edit?usp=sharing)
+[![Resume-PTbr](https://img.shields.io/badge/RESUME_PT_br-007C3C?style=for-the-badge&logo=libreofficewriter&logoColor=white)](https://docs.google.com/document/d/1vnFlRP3myxexgHk5Y6XaCKQGETPQwCygPZqGSblwCXg/edit?usp=sharing)
+<br/>
+[![LINKEDIN](https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atmmoreira)
+[![GMAIL](https://img.shields.io/badge/Gmail-EE2624?style=for-the-badge&logo=gmail&logoColor=white)](mailto:atmmoreira.rj@gmail.com?subject=From%20GitHub&cc=atmmoreira.rj@gmail&body=Hi,%20there.%20Found%20you%20from%20GitHub.)
+[![WHATSAPP](https://img.shields.io/badge/Whatsapp-34A853?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=5521992890362)
 
 </div>
-
-<br >
-
-<!-- References for Create budgets :: https://shields.io/category/build -->
-<div align="center">
-   <img src="https://img.shields.io/static/v1?label=Status&message=Development&color=tomato"/>
-  <img src="https://img.shields.io/static/v1?label=Status&message=Complete&color=darkgreen"/>
-  <img src="https://img.shields.io/static/v1?label=CSS&message=3.0&color=blue"/>
-  <img src="https://img.shields.io/static/v1?label=Tailwind CSS&message=3.*&color=purple"/>
-  <img src="https://img.shields.io/static/v1?label=Bootstrap&message=5.3.x&color=DeepPink"/>
-  <img src="https://img.shields.io/static/v1?label=JavaScript&message=ES6*&color=yellow"/>
-  <img src="https://img.shields.io/static/v1?label=TypeScript&message=5.7&color=darkgray"/>
-  <img src="https://img.shields.io/static/v1?label=Node&message=22.14.0&color=green"/>
-  <img src="https://img.shields.io/static/v1?label=Nestjs&message=11.0.10&color=brown"/>
-  <img src="https://img.shields.io/static/v1?label=React&message=19.0&color=darkblue"/>
-  <img src="https://img.shields.io/static/v1?label=Nextjs&message=15.1.7&color=black"/>
-  <img src="https://img.shields.io/static/v1?label=PHP&message=8.4&color=lightblue"/>
-  <img src="https://img.shields.io/static/v1?label=Laravel&message=11&color=red"/>
-  <img src="https://img.shields.io/static/v1?label=WordPress&message=6.7.2&color=darkcyan"/>
-</div>
-
-<br >
 
 ## Descriptions
 
-This repository provides ready-to-use Docker environments for various popular technology stacks. These setups are tailored to simulate a production-like environment for local development.
+Text here.
 
-## Layout and Project Diagram
+## Images and Descriptions of Screens
 
-<div align="center">
-  Homepage1 <br >
-  <img src="readme/layout/homepage.jpg" alt="New Layout"/> <br ><br >
-  Homepage2 <br >
-  <img src="readme/layout/homepage.jpg" alt="New Layout"/> <br ><br >
-</div>
+- Image 01  
+  ![New Layout](readme/layout/image01.jpg)
 
-## Symbols
+## Technologies <!-- References for Create budgets :: https://shields.io/category/build -->
 
-|     |             |               |
-| --- | ----------- | ------------- |
-| ✅  | Check       | Completed     |
-| ⛔  | Uncheck     | Not Completed |
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-## Dependencies and Dev-Dependencies.
+### Frameworks and Libraries
 
-```Bash
-# Bootstrap 5.3.1
-# HTML5 / CSS3 / SASS
-# Javascript
-# OOP
-```
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Tailwind_CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 
-## System Requirements
+### Tools
 
-```Bash
-# Git
-# Node
-```
+![Visual_Studio_Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Visual_Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 
-## Installing and run the project
+### Database
+
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+
+## Running the project
 
 ```bash
 # Step 01 - Download or clone the repository. In this repository has folders with specific language programming boilerplates.
