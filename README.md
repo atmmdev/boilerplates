@@ -1,9 +1,13 @@
 <div align="center">
-  <img src="readme/logo/favicon.png" />
+  <img src="docs/logo/favicon.png" />
   <h1>Anderson Toledo Martins Moreira</h1>
-  <a href="http://www.atmm.dev" target="_blank">Portfolio Online</a>
 
-> Frontend Developer & WordPress Developer from Brazil with over 10 years of experience, that love learn and improve your skills in programming languages such as CSS (Sass, Bootstrap, Tailwind CSS) | JavaScript | React (Nextjs) | Typescript | Node (Nestjs), and PHP (Laravel | WordPress).
+[![Resume-US](https://img.shields.io/badge/RESUME_US-3776AB?style=for-the-badge&logo=libreofficewriter&logoColor=white)](https://docs.google.com/document/d/1I8T4Mkb61NsTKN14ZbT1mnQKAc9LqiiPtgrYf9ayH1c/edit?usp=sharing)
+[![Resume-PTbr](https://img.shields.io/badge/RESUME_PT_br-007C3C?style=for-the-badge&logo=libreofficewriter&logoColor=white)](https://docs.google.com/document/d/1vnFlRP3myxexgHk5Y6XaCKQGETPQwCygPZqGSblwCXg/edit?usp=sharing)
+<br/>
+[![LINKEDIN](https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atmmoreira)
+[![GMAIL](https://img.shields.io/badge/Gmail-EE2624?style=for-the-badge&logo=gmail&logoColor=white)](mailto:atmmoreira.rj@gmail.com?subject=From%20GitHub&cc=atmmoreira.rj@gmail&body=Hi,%20there.%20Found%20you%20from%20GitHub.)
+[![WHATSAPP](https://img.shields.io/badge/Whatsapp-34A853?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=5521992890362)
 
 </div>
 
@@ -11,7 +15,9 @@
 
 <!-- References for Create budgets :: https://shields.io/category/build -->
 <div align="center">
-  <img src="https://img.shields.io/static/v1?label=Status&message=Development&color=tomato"/>
+
+[![PROGRESS](https://img.shields.io/badge/PROGRESS-EB0A1E?style=for-the-badge&logo=flickr&logoColor=white)](https://api.whatsapp.com/send?phone=5521992890362)
+
 </div>
 
 <br >
