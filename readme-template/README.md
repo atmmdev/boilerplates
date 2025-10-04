@@ -60,16 +60,16 @@ Text here.
 
 ```bash
 # Download or clone the repository.
-In this repository has folders with specific language programming boilerplates.
 
-# Choose your Stack and open the project inside your favorite IDE. And customize the environment variables (if needed).
+# Open the project inside your favorite:
 I use Visual Studio Code
 
-# Start the container:
-docker-compose up --build
+# To install dependencies of this project, type in the terminal:
+`npm install`
 
-# Access the app via your browser on:
-http://localhost - (or custom ports if configured).
+# To run this project, type in the terminal:
+`npm run start`
 
-# Database services are configured with default environment variables or .env files (check each folder for details).
+# In your favorite Browser, open this URL, to see the Interface.
+http://localhost:5173/
 ```
