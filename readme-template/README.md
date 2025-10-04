@@ -59,15 +59,17 @@ Text here.
 ## Running the project
 
 ```bash
-# Step 01 - Download or clone the repository. In this repository has folders with specific language programming boilerplates.
+# Download or clone the repository.
+In this repository has folders with specific language programming boilerplates.
 
-# Step 02 - Choose your Stack and open the project inside your favorite IDE (I use VSCode). And customize the environment variables (if needed).
+# Choose your Stack and open the project inside your favorite IDE. And customize the environment variables (if needed).
+I use Visual Studio Code
 
-# Step 03 - Start the container:
+# Start the container:
 docker-compose up --build
 
-# Step 04 - Access the app via your browser on:
+# Access the app via your browser on:
 http://localhost - (or custom ports if configured).
 
-# Step 05 - Database services are configured with default environment variables or .env files (check each folder for details).
+# Database services are configured with default environment variables or .env files (check each folder for details).
 ```
