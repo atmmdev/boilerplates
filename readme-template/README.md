@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="readme/logo/favicon.png" />
+  <img src="./docs/logo/favicon.png" />
   <h1>Anderson Toledo Martins Moreira</h1>
 
 [![Resume-US](https://img.shields.io/badge/RESUME_US-3776AB?style=for-the-badge&logo=libreofficewriter&logoColor=white)](https://docs.google.com/document/d/1I8T4Mkb61NsTKN14ZbT1mnQKAc9LqiiPtgrYf9ayH1c/edit?usp=sharing)
