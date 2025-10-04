@@ -22,7 +22,12 @@ Text here.
 - Image 01  
   ![New Layout](readme/layout/image01.jpg)
 
-## Technologies <!-- References for Create budgets :: https://shields.io/category/build -->
+## Technologies
+
+<!--
+References for Create budgets :: https://shields.io/category/build
+Icons: https://simpleicons.org/
+-->
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -55,6 +60,7 @@ Text here.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFDB1E?style=for-the-badge&logo=firebase&logoColor=black)
 
 ## Running the project
 
