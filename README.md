@@ -2,6 +2,8 @@
   <img src="docs/logo/favicon.png" />
   <h1>Anderson Toledo Martins Moreira</h1>
 
+<!-- References for Icons :: https://simpleicons.org/?q=webs -->
+
 [![Resume-US](https://img.shields.io/badge/RESUME_US-3776AB?style=for-the-badge&logo=libreofficewriter&logoColor=white)](https://docs.google.com/document/d/1I8T4Mkb61NsTKN14ZbT1mnQKAc9LqiiPtgrYf9ayH1c/edit?usp=sharing)
 [![Resume-PTbr](https://img.shields.io/badge/RESUME_PT_br-007C3C?style=for-the-badge&logo=libreofficewriter&logoColor=white)](https://docs.google.com/document/d/1vnFlRP3myxexgHk5Y6XaCKQGETPQwCygPZqGSblwCXg/edit?usp=sharing)
 <br/>
@@ -13,10 +15,10 @@
 
 <br >
 
-<!-- References for Create budgets :: https://shields.io/category/build -->
 <div align="center">
 
-[![PROGRESS](https://img.shields.io/badge/PROGRESS-EB0A1E?style=for-the-badge&logo=flickr&logoColor=white)](https://api.whatsapp.com/send?phone=5521992890362)
+![PROGRESS](https://img.shields.io/badge/IN_PROGRESS-EB0A1E?style=for-the-badge&logo=flickr&logoColor=white)
+![COMPLETE](https://img.shields.io/badge/COMPLETE-7ED321?style=for-the-badge&logo=cachet&logoColor=white)
 
 </div>
 
@@ -30,13 +32,15 @@ This repository provides ready-to-use Docker environments for various popular te
 
 Each stack is self-contained in its own directory with a `Dockerfile`, `docker-compose.yml`, and `README.md` to explain setup instructions. Choose a project depending on the backend language and database you want to using:
 
-|     | Language                    | Database       | Project Directory                        |
-| --- | --------------------------- | -------------- | ---------------------------------------- |
-| ✅  | Node + Express + TypeScript | MySQL / MongDB | `node-express-typescript-mysql-mongodb/` |
-| ✅  | Laravel                     | MySQL          | `laravel-mysql-nginx/`                   |
-| ✅  | PHP                         | MySQL          | `php-mysql-nginx/`                       |
-| ✅  | WordPress                   | MySQL          | `wordpress-mysql/`                       |
-| ⛔  | ---                         | ---            | `---`                                    |
+|     | Language                    | Database         | Project Directory                        |
+| --- | --------------------------- | ---------------- | ---------------------------------------- |
+| ✅  | Node + Express + TypeScript | MySQL / MongDB   | `node-express-typescript-mysql-mongodb/` |
+| ✅  | Laravel                     | MySQL            | `laravel-mysql-nginx/`                   |
+| ✅  | PHP                         | MySQL            | `php-mysql-nginx/`                       |
+| ✅  | WordPress                   | MySQL            | `wordpress-mysql/`                       |
+| ⛔  | C#/ASPNet Core              | MySQL / Postgres | `---`                                    |
+| ⛔  | Python                      | MySQL / Postgres | `---`                                    |
+| ⛔  | N8N                      | ---              | `---`                                    |
 
 <br />
 
