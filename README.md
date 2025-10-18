@@ -47,9 +47,12 @@ Each stack is self-contained in its own directory with a `Dockerfile`, `docker-c
 ## Installing and run the project
 
 ```bash
-# Step 01 - Download or clone the repository. In this repository has folders with specific language programming boilerplates.
+# Download or clone the repository.
+In this repository has folders with specific language programming boilerplates.
 
-# Step 02 - Choose your Stack and open the project inside your favorite IDE (I use VSCode). And customize the environment variables (if needed).
+# Choose your Stack and open the project inside your favorite IDE (I use VSCode).
+Customize the environment variables (if needed).
 
-# Step 03 - You will find a readme.md file, with a small tutorial to run your project with Docker.
+# README.md
+You will find a readme.md file, with a small tutorial to run your project with Docker.
 ```
