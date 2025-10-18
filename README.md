@@ -40,7 +40,7 @@ Each stack is self-contained in its own directory with a `Dockerfile`, `docker-c
 | ✅  | WordPress                   | MySQL            | `wordpress-mysql/`                       |
 | ⛔  | C#/ASPNet Core              | MySQL / Postgres | `---`                                    |
 | ⛔  | Python                      | MySQL / Postgres | `---`                                    |
-| ⛔  | N8N                      | ---              | `---`                                    |
+| ⛔  | N8N                         | ---              | `---`                                    |
 
 <br />
 
