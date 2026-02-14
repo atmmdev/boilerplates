@@ -22,13 +22,17 @@
 
 ## Descriptions
 
-Text here.
+**Implement here the descriptions of the project**
 
 ## Images and Descriptions of Screens
 
-- Image 01 - Logo as example
+<div align="center">
 
-  ![Logo](./docs/logo/favicon.png)
+Layout Home
+
+![Logo](./docs/homepage.jpg)
+
+</div>
 
 ## Technologies
 
@@ -70,20 +74,25 @@ Icons: https://simpleicons.org/
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFDB1E?style=for-the-badge&logo=firebase&logoColor=black)
 
+## Structure of the project
+
+**Implement here the structure of the project**
+
 ## Running the project
 
 ```bash
-# Download or clone the repository.
+# Install dependencies
+npm install
 
-# Open the project inside your favorite:
-I use Visual Studio Code
+# Development server (Vite)
+npm run dev
 
-# To install dependencies of this project, type in the terminal:
-`npm install`
+# Production build
+npm run build
 
-# To run this project, type in the terminal:
-`npm run start`
+# Preview build
+npm run preview
 
-# In your favorite Browser, open this URL, to see the Interface.
+# After starting the dev server, open:
 http://localhost:5173/
 ```
