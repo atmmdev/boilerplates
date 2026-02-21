@@ -10,10 +10,10 @@ PIP_DISABLE_PIP_VERSION_CHECK=1
 
 # System dependencies for MySQL client
 RUN apt-get update && apt-get install -y --no-install-recommends \
-default-libmysqlclient-dev\
-build-essential\
-pkg-config \
-&& rm -rf /var/lib/apt/lists/*
+  default-libmysqlclient-dev\
+  build-essential\
+  pkg-config \
+  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
