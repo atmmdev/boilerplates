@@ -1,6 +1,6 @@
 <div align="center">
 
-![Logo](./docs/logo/favicon.png)
+![Logo](./favicon.png)
 
 # Anderson Toledo Martins Moreira
 
@@ -13,33 +13,29 @@
 
 </div>
 
-<div align="center">
+# Project Description
 
-![PROGRESS](https://img.shields.io/badge/IN_PROGRESS-EB0A1E?style=for-the-badge&logo=flickr&logoColor=white)
-![COMPLETE](https://img.shields.io/badge/COMPLETE-7ED321?style=for-the-badge&logo=cachet&logoColor=white)
+Short and clear description of what this project does and **which real problem it solves**.
 
-</div>
+> Example:
+> A scalable web application built to manage users, authentication, and financial transactions with a modern frontend and a clean backend architecture.
 
-## Descriptions
-
-**Implement here the descriptions of the project**
-
-## Images and Descriptions of Screens
+## Images
 
 <div align="center">
 
-Layout Home
-
-![Logo](./docs/homepage.jpg)
+![Logo](./favicon.png)
 
 </div>
 
-## Technologies
+## Tech Stack
 
 <!--
 References for Create budgets :: https://shields.io/category/build
 Icons: https://simpleicons.org/
 -->
+
+### Principal
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
@@ -74,11 +70,76 @@ Icons: https://simpleicons.org/
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFDB1E?style=for-the-badge&logo=firebase&logoColor=black)
 
-## Structure of the project
+## Architecture Overview
 
-**Implement here the structure of the project**
+This project follows **Clean Architecture principles**, focusing on:
 
-## Running the project
+- Separation of concerns
+- Testability
+- Scalability
+- Maintainability
+
+### Layers
+
+- **Presentation**: Controllers, DTOs, UI components
+- **Application**: Use cases and business rules
+- **Domain**: Entities and core logic
+- **Infrastructure**: Database, external services, frameworks
+
+## Features
+
+- User authentication (JWT)
+- Role-based access control
+- CRUD operations
+- Pagination and filtering
+- Input validation
+- Error handling
+- Secure API endpoints
+
+## Project Structure
+
+```
+src/
+ ├── modules/
+ │   ├── users/
+ │   │   ├── controller.ts
+ │   │   ├── service.ts
+ │   │   ├── repository.ts
+ │   │   └── entity.ts
+ │   └── auth/
+ ├── shared/
+ │   ├── database/
+ │   ├── config/
+ │   └── utils/
+ └── main.ts
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js >= 18
+- Docker (optional)
+- PostgreSQL / MySQL
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/project-name.git
+cd project-name
+npm install
+```
+
+### Environment Variables
+
+Create a `.env` file:
+
+```env
+DATABASE_URL=postgresql://user:password@localhost:5432/db
+JWT_SECRET=your_secret_key
+```
+
+### Running the project
 
 ```bash
 # Install dependencies
@@ -96,3 +157,51 @@ npm run preview
 # After starting the dev server, open:
 http://localhost:5173/
 ```
+
+## Tests
+
+```bash
+npm run test
+npm run test:e2e
+```
+
+This project includes:
+
+- Unit tests
+- Integration tests
+- End-to-end tests
+
+## API Documentation
+
+- Swagger available at:
+  `http://localhost:3000/api`
+
+- GraphQL Playground (if applicable):
+  `http://localhost:3000/graphql`
+
+## 🚀 Deployment
+
+This project is ready for production deployment using:
+
+- Docker
+- Nginx
+- Cloud providers (AWS / DigitalOcean / Vercel)
+
+Example:
+
+```bash
+docker-compose up -d
+```
+
+---
+
+## Future Improvements
+
+- Add caching (Redis)
+- Improve test coverage
+- Add rate limiting
+- Implement monitoring and logging
+
+## License
+
+This project is licensed under the MIT License.
